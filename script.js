@@ -8,8 +8,8 @@ const MODEL_PATH = 'image_classifier_model.onnx';
 const INPUT_TENSOR_SIZE = 28;
 const CANVAS_SIZE = 280;
 
-const MNIST_MEAN = 0.1307;
-const MNIST_STD = 0.3081;
+const MNIST_MEAN = 0.5;
+const MNIST_STD = 0.5;
 const BINARY_THRESHOLD = 128;
 
 let isDrawing = false;
